@@ -146,7 +146,7 @@ public class Main {
      */
     private static StringBuilder createAccess(File file) {
         StringBuilder sb = new StringBuilder();
-        sb.append("'").append(file.getName()).append("'").append(" успешно создан");
+        sb.append("'").append(file.getName()).append("'").append(" успешно создан\n");
         return sb;
     }
 
@@ -156,7 +156,7 @@ public class Main {
      */
     private static StringBuilder createFail(File file) {
         StringBuilder sb = new StringBuilder();
-        sb.append("'").append(file.getName()).append("'").append(" уже существует");
+        sb.append("'").append(file.getName()).append("'").append(" уже существует\n");
         return sb;
     }
 }
