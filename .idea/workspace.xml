@@ -2,134 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3618783e-81b1-4656-8211-ce15e33c225b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/Course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/src/com/company/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/src/com/company/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Course/src/com/company/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HardWorker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/MissedCalls.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/src/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/src/Contacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/src/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/src/MainMenuText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MissedCalls/src/MissedCalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/NoteBook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/src/StaticText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoteBook/src/TicketList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhoneBook" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PopulationCensus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../VCSI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WorkingWithNumbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/demo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../git-homeworks-neuro-broken" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/homework2.1.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2.1.1/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/homework3.1.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/BookMover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/FromArchivedStatusMover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/FromAvailableStatusMover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/FromBorrowedStatusMover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/FromOverduedStatusMover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.1.1/src/com/company/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/homework3.2.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/weapon/Automate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/weapon/Pistol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/weapon/Rpg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/weapon/Slingshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/weapon/WaterGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.2.1/src/weapon/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/homework3.3.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/LibAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/LibLibrarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/LibReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/LibSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/interfaces/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/interfaces/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/interfaces/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1/src/lib/interfaces/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/homework3.3.1new.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/UserAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/UserLibrarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/UserReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/UserSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/interfaces/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/interfaces/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/interfaces/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.3.1new/src/lib/interfaces/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/homework3.4.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/src/customException/AccessDeniedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework3.4.1/src/customException/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>

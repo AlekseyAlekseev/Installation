@@ -7,156 +7,88 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 
-        File src = new File("D://JAVA//Installation//Games//src");
-        File res = new File("D://JAVA//Installation//Games//res");
-        File savegames = new File("D://JAVA//Installation//Games//savegames");
-        File temp = new File("D://JAVA//Installation//Games//temp");
-        File main = new File("D://JAVA//Installation//Games//src//main");
-        File test = new File("D://JAVA//Installation//Games//src//test");
-        File drawables = new File("D://JAVA//Installation//Games//res//drawables");
-        File vectors = new File("D://JAVA//Installation//Games//res//vectors");
-        File icons = new File("D://JAVA//Installation//Games//res//icons");
+        File src = new File("C://JAVA//Installation//Games//src");
+        File res = new File("C://JAVA//Installation//Games//res");
+        File savegames = new File("C://JAVA//Installation//Games//savegames");
+        File temp = new File("C://JAVA//Installation//Games//temp");
+        File main = new File("C://JAVA//Installation//Games//src//main");
+        File test = new File("C://JAVA//Installation//Games//src//test");
+        File drawables = new File("C://JAVA//Installation//Games//res//drawables");
+        File vectors = new File("C://JAVA//Installation//Games//res//vectors");
+        File icons = new File("C://JAVA//Installation//Games//res//icons");
         File mainFile = new File(main, "Main.java");
         File utilsFile = new File(main, "Utils.java");
         File tempFile = new File(temp, "temp.txt");
         StringBuilder sb = new StringBuilder();
 
+
         /**
-         * Создание папки src
+         * Создание каталогов src, res, savegames, temp, main,
+         * test, drawables, vectors, icons
          */
-        if (src.mkdir()) {
-            sb.append(createAccess(src));
-        } else {
-            sb.append(createFail(src));
-        }
+        createCatalog(src, sb);
+        createCatalog(res, sb);
+        createCatalog(savegames, sb);
+        createCatalog(temp, sb);
+        createCatalog(main, sb);
+        createCatalog(test, sb);
+        createCatalog(drawables, sb);
+        createCatalog(vectors, sb);
+        createCatalog(icons, sb);
+
         /**
-         * Создание папки res
+         * Создание файлов Main.java, Utils.java, temp.txt
          */
-        if (res.mkdir()) {
-            sb.append(createAccess(res));
-        } else {
-            sb.append(createFail(res));
-        }
-        /**
-         * Создание папки savegames
-         */
-        if (savegames.mkdir()) {
-            sb.append(createAccess(savegames));
-        } else {
-            sb.append(createFail(savegames));
-        }
-        /**
-         * Создание папки temp
-         */
-        if (temp.mkdir()) {
-            sb.append(createAccess(temp));
-        } else {
-            sb.append(createFail(temp));
-        }
-        /**
-         * Создание папки main
-         */
-        if (main.mkdir()) {
-            sb.append(createAccess(main));
-        } else {
-            sb.append(createFail(main));
-        }
-        /**
-         * Создание папки test
-         */
-        if (test.mkdir()) {
-            sb.append(createAccess(test));
-        } else {
-            sb.append(createFail(test));
-        }
-        /**
-         * Создание папки drawables
-         */
-        if (drawables.mkdir()) {
-            sb.append(createAccess(drawables));
-        } else {
-            sb.append(createFail(drawables));
-        }
-        /**
-         * Создание папки vectors
-         */
-        if (vectors.mkdir()) {
-            sb.append(createAccess(vectors));
-        } else {
-            sb.append(createFail(vectors));
-        }
-        /**
-         * Создание папки icons
-         */
-        if (icons.mkdir()) {
-            sb.append(createAccess(icons));
-        } else {
-            sb.append(createFail(icons));
-        }
-        /**
-         * Создание файла Main.java
-         */
-        try {
-            if (mainFile.createNewFile()) {
-                sb.append(createAccess(mainFile));
-            } else {
-                sb.append(createFail(mainFile));
-            }
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-        /**
-         * Создание файла Utils.java
-         */
-        try {
-            if (utilsFile.createNewFile()) {
-                sb.append(createAccess(utilsFile));
-            } else {
-                sb.append(createFail(utilsFile));
-            }
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-        /**
-         * Создание файла temp.txt
-         */
-        try {
-            if (tempFile.createNewFile()) {
-                sb.append(createAccess(tempFile));
-            } else {
-                sb.append(createFail(tempFile));
-            }
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
+        createFile(mainFile, sb);
+        createFile(utilsFile, sb);
+        createFile(tempFile, sb);
 
         /**
          * Логирование в temp.txt
          */
-        try (FileWriter writer = new FileWriter("D://JAVA//Installation//Games//temp//temp.txt")) {
-            writer.append(sb.toString());
+        writeFile(tempFile, sb);
+    }
+
+    /**
+     * Метод, который создает передаваемый в него каталог
+     * @param file
+     * @param sb
+     */
+    private static void createCatalog(File file, StringBuilder sb) {
+        if (file.mkdir()) {
+            sb.append("Каталог '").append(file.getName()).append("' успешно создан\n");
+        } else {
+            sb.append("Каталог '").append(file.getName()).append("' уже существует\n");
+        }
+    }
+
+    /**
+     * Метод, который создает передаваемый в него файл
+     * @param file
+     * @param sb
+     */
+    private static void createFile(File file, StringBuilder sb) {
+        try {
+            if (file.createNewFile()) {
+                sb.append("Файл '").append(file.getName()).append("' успешно создан\n");
+            } else {
+                sb.append("Файл '").append(file.getName()).append("' уже существует\n");
+            }
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
     }
 
     /**
-     * Метод возвращающий сообщение об успешном создании файла/каталога.
-     * Сделан, чтобы не засорять код дубликата текста.
+     * Метод записывающий информацию о результате создания файла/каталога в temp.txt
+     * @param filePath
+     * @param sb
      */
-    private static StringBuilder createAccess(File file) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("'").append(file.getName()).append("'").append(" успешно создан\n");
-        return sb;
-    }
-
-    /**
-     * Метод возвращающий сообщение об не успешном создании файла/каталога.
-     * Сделан, чтобы не засорять код дубликата текста.
-     */
-    private static StringBuilder createFail(File file) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("'").append(file.getName()).append("'").append(" уже существует\n");
-        return sb;
+    private static void writeFile(File filePath, StringBuilder sb) {
+        try (FileWriter writer = new FileWriter(filePath)) {
+            writer.append(sb.toString());
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
